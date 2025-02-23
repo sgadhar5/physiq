@@ -81,7 +81,7 @@ if st.button("Diagnose"):
             "Please give a severity level based on the diagnosis and recommend how urgent the patient must seek physician help on a scale of 1 to 5, 5 being urgent."
         )
         
-        client = OpenAI(api_key="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")
+        client = OpenAI(api_key="OPENAI_API_KEY")
 
         # Call the GPT‑4 API with the prompt
         chat_completion = client.chat.completions.create(
