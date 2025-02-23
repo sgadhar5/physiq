@@ -87,7 +87,7 @@ if st.button("Diagnose"):
 #         client = OpenAI(
 #     api_key= os.getenv("OPENAI_API_KEY")
 # )
-        client = OpenAI(api_key="***")
+        client = OpenAI(api_key="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")
 
         # Call the GPT‑4 API with the prompt
         chat_completion = client.chat.completions.create(
