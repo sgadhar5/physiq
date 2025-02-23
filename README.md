@@ -24,8 +24,6 @@
 ## Tech Stack
 - Open AI - GPT 4.0 for AI scribing and symptom diagnosis
 - Python - Backend for patient portal's API processing
-- React - Frontend and Backend for smooth physician experience and API processing
-- Assembly AI - Speech-to-text conversion for in person physician visits
 - Streamlit - Frontend for patient portal's smooth user experience
 
 ## Installation and Setup
