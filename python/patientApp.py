@@ -7,10 +7,8 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-#img = Image.open("logo.png")
 st.set_page_config(
     page_title="PhysIQ - At Home AI Diagnosis",
-    #page_icon=img,
     layout="wide",
 )
 
@@ -79,14 +77,10 @@ if st.button("Diagnose"):
         prompt = (
             f"I have the following symptoms: {', '.join(user_symptoms)}. "
             "Based on these, what disease or medical condition might I have? "
-            "Please provide a brief and concise diagnosis. Keep the answers very brief and casual as to not scare patients. Provide advice and at-home possible remedies and advise to see doctors as needed."
-            "Please give a severity level based on the diagnosis and recommend how urgent the patient must seek physician help on a scale of 1 to 5, 5 being urgent. "
+            "Please provide a brief and concise diagnosis. Keep the answers very brief and casual as to not scare patients. Provide advice and at-home possible remedies/medicines and advise to see doctors as needed."
+            "Please give a severity level based on the diagnosis and recommend how urgent the patient must seek physician help on a scale of 1 to 5, 5 being urgent."
         )
         
-        # Set your OpenAI API key (it is recommended to store this securely in Streamlit secrets)
-#         client = OpenAI(
-#     api_key= os.getenv("OPENAI_API_KEY")
-# )
         client = OpenAI(api_key="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")
 
         # Call the GPT‑4 API with the prompt
