@@ -1,0 +1,65 @@
+.navbar {
+  
+  background-color: #13517d;
+  color: white;
+  padding: 10px 20px;
+  height: 100px;
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  justify-content: flex-start;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  height: 60px; /* Set a fixed height for the header */
+  background-color: #13517d; /* Optional: Set a background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+.navbar-logo {
+  flex-grow: 0; /* Ensures the logo does not stretch */
+  margin-right: 20px; /* Space between logo and links */
+}
+
+.navbar ul {
+
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.navbar li {
+  margin-left: 268px;
+  margin-top: 30px;
+
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar li:hover {
+  transform: translateY(-2px);
+}
+
+.navbar a {
+  color: #fff;
+  background-color: #0d324d;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.navbar a:hover, .navbar a:focus {
+  background-color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Keeps everything inline on smaller screens */
+  }
+
+  .navbar-logo img {
+    height: 40px; /* Adjust size for smaller screens */
+  }
+}

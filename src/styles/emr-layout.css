@@ -1,0 +1,61 @@
+/* EMR Dashboard Layout */
+.emr-container {
+    display: flex;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .sidebar nav ul li:hover,
+  .sidebar nav ul li.active {
+    background: #2563eb;
+  }
+  
+  /* Main Content */
+  .emr-content {
+    flex: 1;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+    background: #eef2f3;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
