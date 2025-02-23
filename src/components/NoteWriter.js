@@ -286,7 +286,7 @@ Use the past notes to make a fill in the blank structure for the physician to ea
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer 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`, // Use your API key
+          Authorization: `***`, // Use your API key
         },
         body: JSON.stringify({
           model: "gpt-4",
@@ -351,7 +351,7 @@ Use the past notes to make a fill in the blank structure for the physician to ea
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer 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`, // Use your API key
+          Authorization: `***`, // Use your API key
         },
         body: JSON.stringify({
           model: "gpt-4",
