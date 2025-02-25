@@ -9,7 +9,7 @@
 - AI-generated notes can be copied or exported for integration with Electronic Medical Records (EMR) systems.
 - Improves efficiency, allowing physicians to focus on patient care rather than documentation.
 - In the future will allow seamless connection between other EMR's such as CareVue and Epic.
-\n
+  
 ## For Patients
 ✅ AI-Powered Symptom Checker
 - Patients can select symptoms from an extensive list.
@@ -25,6 +25,7 @@
 - Open AI - GPT 4.0 for AI scribing and symptom diagnosis
 - Python - Backend for patient portal's API processing
 - Streamlit - Frontend for patient portal's smooth user experience
+- React - Front and Backend for physician's portal
 
 ## Installation and Setup
 Include python libraries such as:
@@ -51,17 +52,3 @@ Setup:
 Aishani Arunganesh  
 Succhay Gadhar  
 Vanya Sagi  
-
-
-*for viewer's convenience, we have temporarily provided an API Key to test the code with OpenAI. Please delete the extra line to have access to the entire key*  
-
-**API Key for Python File(patientApp.py)**
-"sk-proj-oastrqLCN1p3_SzJvE7Hj_x7iql2Ep5y9W-H0CyjyTl1XJV17s1Ul_Tqg-
-
-_CBhpupqTwp6fuccT3BlbkFJ0QieejIgfVrsKNySleNtLJWdsrcW3EI4JugbUO8Ml6skk68deYu3dW8fXJmCTNtzeP242BaDMA"
-
-**API Key for JS File(Notewriter.js)**
-
-"Bearer sk-proj-MmBs2haAZKB3TW-8WLMLX_DAf_uuMIY6hYi4wyZIQbRMBmRJM1UmDNgQgaZ76LMKisNke7_
-
-QH8T3BlbkFJSkNKwvs7KxUfolG1X2y25w4DXmdINyTsot7HulQ1GdWw0eOYz8KfUeN6wX9-uzogP2JzC_tkAA"
